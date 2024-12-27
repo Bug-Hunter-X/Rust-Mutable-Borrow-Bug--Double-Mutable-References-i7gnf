@@ -1,0 +1,2 @@
+# Rust Mutable Borrow Bug
+This repository demonstrates a common issue in Rust related to mutable borrows: creating multiple mutable references to the same variable.  While the provided code compiles, it highlights the potential for unexpected behavior and data races, and is generally considered bad programming practice. The solution demonstrates a way to avoid this issue by using techniques like cloning or a single mutable reference.
